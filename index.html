@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <input id="a" type="text" />+<input id="b" type="text" />
+    <button onclick="sum()">=</button>
+    <output id="c"></output>
+    <input id="a1" type="text" />+<input id="b1" type="text" />
+    <button onclick="minus()">=</button>
+    <output id="c1"></output>
+    <input id="a2" type="text" />+<input id="b2" type="text" />
+    <button onclick="multiple()">=</button>
+    <output id="c2"></output>
+    <input id="a3" type="text" />+<input id="b3" type="text" />
+    <button onclick="devide()">=</button>
+    <output id="c3"></output>
+<script>
+    function sum(a,b){
+        var a = parseInt(document.getElementById('a').value);
+        var b = parseInt(document.getElementById('b').value);
+        document.getElementById("c").valueL = a+b
+    }
+    function minus(a,b){
+        var a = parseInt(document.getElementById('a').value);
+        var b = parseInt(document.getElementById('b').value);
+        document.getElementById("c").valueL = a-b
+    function multiple(a,b){
+        var a = parseInt(document.getElementById('a').value);
+        var b = parseInt(document.getElementById('b').value);
+        document.getElementById("c").valueL = a*b
+    function devide(a,b){
+        var a = parseInt(document.getElementById('a').value);
+        var b = parseInt(document.getElementById('b').value);
+        document.getElementById("c").valueL = a/b
+
+ 
+</script>
+</body>
+</html>
